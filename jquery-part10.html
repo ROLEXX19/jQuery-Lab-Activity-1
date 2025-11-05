@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Politeknik Seberang Perai</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #121212; 
+      color: #f5f5f5;
+    }
+
+    /* Header */
+    header {
+      background: #C70000; 
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    header h2 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    .menu-icon {
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+  
+    .container {
+      text-align: center;
+      padding: 25px;
+    }
+
+    .container img {
+      width: 220px;
+      margin: 10px 0;
+    }
+
+    .contact-info {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .contact-info i {
+      color: #ff5252;
+      margin-right: 8px;
+    }
+
+    a {
+      color: #00aaff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 250px;
+      border-radius: 10px;
+      margin-top: 15px;
+      filter: brightness(0.85);
+    }
+
+    .social-buttons {
+      margin-top: 25px;
+    }
+
+    .social-buttons button {
+      background: transparent;
+      color: #fff;
+      border: 1px solid #ff5252;
+      border-radius: 25px;
+      padding: 10px 20px;
+      margin: 6px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+
+    .social-buttons button:hover {
+      background: #ff5252;
+      color: white;
+      border-color: #ff5252;
+    }
+
+    footer {
+      background: #C70000;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 14px;
+      margin-top: 30px;
+      letter-spacing: 0.3px;
+    }
+
+    footer b {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Contact Us with jQuery</h2>
+    <i class="fa-solid fa-bars menu-icon"></i>
+  </header>
+
+  <div class="container">
+    <img src="logo.png" alt="Politeknik Seberang Perai Logo">
+
+    <p>Feel free to get in touch with us!</p>
+
+    <div class="contact-info">
+      <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/601234567890" target="_blank">Send a WhatsApp message</a></p>
+      <p><i class="fa fa-phone"></i> Call: <a href="tel:01234567890">012-34567890</a></p>
+      <p><i class="fa fa-envelope"></i> Email: <a href="mailto:shumohd@psp.edu.my">10DIT23F2009@student.psp.edu.my</a></p>
+      <p><i class="fa fa-map-marker-alt"></i> Address: Politeknik Seberang Perai, Jalan Permatang Pauh,<br>
+         13500 Permatang Pauh, Pulau Pinang, Malaysia</p>
+    </div>
+
+    <iframe 
+      src="https://www.google.com/maps?q=Politeknik+Seberang+Perai&output=embed" 
+      allowfullscreen>
+    </iframe>
+
+    <div class="social-buttons">
+      <button><i class="fab fa-facebook"></i> Add Us on Facebook</button>
+      <button><i class="fab fa-twitter"></i> Add Us on Twitter</button>
+      <button><i class="fab fa-instagram"></i> Add Us on Instagram</button>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 <b>KAVINESH</b>. All rights reserved.
+  </footer>
+
+</body>
+</html>

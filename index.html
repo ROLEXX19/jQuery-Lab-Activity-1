@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jQuery Lab Menu</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Inter", sans-serif;
+      background: radial-gradient(circle at top left, #1a1a1a, #0d0d0d);
+      color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 500px;
+      background: rgba(25, 25, 25, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7);
+      padding: 30px 20px;
+      backdrop-filter: blur(12px);
+      text-align: center;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      font-size: 1.7em;
+      font-weight: 700;
+      color: #ff5252;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 1em;
+      color: #ccc;
+      margin-bottom: 25px;
+    }
+
+    .menu a {
+      display: block;
+      text-decoration: none;
+      width: 100%;
+      background: linear-gradient(135deg, #ff8c00, #ff0000);
+      color: #fff;
+      border: none;
+      padding: 14px;
+      margin: 10px 0;
+      font-size: 1.05em;
+      font-weight: 600;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 10px rgba(255, 50, 0, 0.3);
+      letter-spacing: 0.3px;
+    }
+
+    .menu a:hover {
+      background: linear-gradient(135deg, #ff5e00, #ff1e1e);
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 70, 0, 0.6);
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    footer span {
+      color: #ff5252;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>jQuery Lab Menu</h1>
+    <p>Tap a part below to open your lab activity</p>
+
+    <div class="menu">
+      <a href="jquery-part1.html" target="_blank">Part 1</a>
+      <a href="jquery-part1-2.html" target="_blank">Part 2</a>
+      <a href="jquery-part3.html" target="_blank">Part 3</a>
+      <a href="jquery-part4.html" target="_blank">Part 4</a>
+      <a href="jquery-part5.html" target="_blank">Part 5</a>
+      <a href="jquery-part6.html" target="_blank">Part 6</a>
+      <a href="jquery-part7.html" target="_blank">Part 7</a>
+      <a href="jquery-part8.html" target="_blank">Part 8</a>
+      <a href="jquery-part9.html" target="_blank">Part 9</a>
+      <!-- ✅ New Part 10 added -->
+      <a href="jquery-part10.html" target="_blank">Part 10</a>
+    </div>
+
+    <footer>© <span>KAVINESH A/L ARUL PRAGAS DIT4A</span></footer>
+  </div>
+</body>
+</html>
